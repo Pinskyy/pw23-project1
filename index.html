@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css"
+        integrity="sha512-vgK7iuWG4Uq4GJHovntONntOoSduelAYImQTT3f0mvdUcI95qQgSmf4ldDhn/FNl3g/xouqOtsm/NxFqaTnxbA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="swiper-bundle.css">
+    <title>Project Apin</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <div class="logo"><img src="img/Logo haus Hitam Panjang.png" alt=""></div>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#customers">Customers</a></li>
+                <li><a href="#">
+                        <div class="action_btn1">Login</div>
+                    </a></li>
+                <li><a href="#">
+                        <div class="action_btn">Get Started</div>
+                    </a></li>
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customers">Customers</a></li>
+            <li><a href="#">
+                    <div class="action_btn1">Login</div>
+                </a></li>
+            <li><a href="#">
+                    <div class="action_btn">Get Started</div>
+                </a></li>
+        </div>
+    </header>
+    <!-- Carousel -->
+    <section class="slides">
+        <div class="slide">
+            <img src="img/Banner-1.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/Banner-2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/Banner-3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/Banner-4.jpg" alt="">
+        </div>
+        <div class="navigation">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+    <!-- About Us -->
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2>About HAUS!</h2>
+            <p>PT. Inspirasi Bisnis Nusantara merupakan perusahaan yang bergerak di bidang Food & Beverage dan dikenal
+                dengan brand "Haus!" yang menyediakan minuman dan makanan kekinian yang di gandrungi oleh generasi
+                milenial dengan berbagai macam varian rasa serta harga yang terjangkau.</p>
+            <p>Saat ini Haus! sudah memiliki 197 cabang outlet yang tersebar di 18 kota di Pulau Jawa. Selain ekspansi
+                ke kota-kota besar lainnya di Indonesia, Haus! juga akan terus melakukan pengembangan dan inovasi.</p>
+            <div class="about-button">
+                <a href="#" class="action_btn4">Learn More</a>
+                <a href="#contact" class="action_btn3">Talk To Sales</a>
+            </div>
+        </div>
+        <div class="about-img">
+            <img src="img/Haus mantap.jpg" alt="">
+        </div>
+    </section>
+    <!-- Products -->
+    <main>
+        <div class="heading-product">
+            <h2>Our Popular Products</h2>
+        </div>
+        <section class="products" id="products">
+            <div class="list-items">
+                <div class="card-list">
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/Green Thai Tea.png" alt="">
+                        </div>
+                        <div class="food-title">
+                            <h1>Green Thai Tea</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">10.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/Red Velvet.png" alt="">
+                        </div>
+
+                        <div class="food-title">
+                            <h1>Red Velvet</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">15.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/Cotton Candy.png" alt="">
+                        </div>
+
+                        <div class="food-title">
+                            <h1>Cotton Candy</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">15.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/oreo.png" alt="">
+                        </div>
+
+                        <div class="food-title">
+                            <h1>Oreo</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">13.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/Hazelnut Cheese.png" alt="">
+                        </div>
+
+                        <div class="food-title">
+                            <h1>Hazelnut Cheese</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">15.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/Strawbery Tea cheese.png" alt="">
+                        </div>
+
+                        <div class="food-title">
+                            <h1>Strawbery Tea Cheese</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">17.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/Taro Cheese.png" alt="">
+                        </div>
+
+                        <div class="food-title">
+                            <h1>Taro Cheese</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">17.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/Choco Lava Milo Cheese.png" alt="">
+                        </div>
+
+                        <div class="food-title">
+                            <h1>Choco Lava Milo Cheese</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">20.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/Taro.png" alt="">
+                        </div>
+
+                        <div class="food-title">
+                            <h1>Taro</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">13.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/Black Jasmine Tea.png" alt="">
+                        </div>
+
+                        <div class="food-title">
+                            <h1>Black Jasmine Tea</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">6.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/Mango Tea.png" alt="">
+                        </div>
+                        <div class="food-title">
+                            <h1>Mango Tea</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">12.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-product">
+                            <img src="img/Boba Brown Sugar Milk Tea.png" alt="">
+                        </div>
+
+                        <div class="food-title">
+                            <h1>Boba Brown Sugar Milk Tea</h1>
+                        </div>
+                        <div class="price">
+                            <span class="harga">17.000</span><span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="head-cust">
+            <div class="heading-customer" id="customers">
+                <h2>What our client say</h2>
+                <p>Berikut beberapa ulasan yang diberikan oleh pelanggan kepada kami.</p>
+            </div>
+            <div class="button-customer">
+                <a href="#" class="action_btn5">Learn More</a>
+                <a href="#contact" class="action_btn6">Talk To Sales</a>
+            </div>
+        </div>        
+        </div>
+        <section class="container" id="customers">
+            <div class="card__container swiper">
+                <div class="card__content">
+                    <div class="swiper-wrapper">
+                        <article class="card__article swiper-slide">
+                            <div class="card__image">
+                                <img src="img/Ashel Flowe12Full.jpg" alt="" class="card__img">
+                                <div class="card__shadow"></div>
+
+                                <div class="card__data">
+                                    <h3 class="card__name">Adzana Shaliha</h3>
+                                    <p class="card__description">
+                                        Suasana di HAUS sangat nyaman dan cocok untuk nongkrong santai. Desain interior yang modern dan tempat duduk yang nyaman membuat pengalaman pelanggan menjadi lebih menyenangkan.
+                                    </p>
+
+                                    <div class="stars">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card__article swiper-slide">
+                            <div class="card__image">
+                                <img src="img/Feni Flowe12Full.jpg" alt="" class="card__img">
+                                <div class="card__shadow"></div>
+
+                                <div class="card__data">
+                                    <h3 class="card__name">Feni Fitrianti</h3>
+                                    <p class="card__description">
+                                        Salah satu kelebihan HAUS adalah keunikan rasa pada setiap minuman. Mereka tidak hanya mengikuti tren, tetapi juga memberikan sentuhan kreatif yang membuat minuman mereka berbeda dari yang lain.
+                                    </p>
+
+                                    <div class="stars">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card__article swiper-slide">
+                            <div class="card__image">
+                                <img src="img/Indah Flowe12Full.jpg" alt="" class="card__img">
+                                <div class="card__shadow"></div>
+
+                                <div class="card__data">
+                                    <h3 class="card__name">Indah Cahya Nabila</h3>
+                                    <p class="card__description">
+                                        Pelayanan di HAUS patut diacungi jempol. Para barista mereka sangat ramah dan siap membantu dalam memilih minuman yang sesuai dengan selera pelanggan. Pelayanan yang baik meningkatkan pengalaman pelanggan secara keseluruhan.
+                                    </p>
+
+                                    <div class="stars">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card__article swiper-slide">
+                            <div class="card__image">
+                                <img src="img/Ci Shani Flowe12Full.jpg" alt="" class="card__img">
+                                <div class="card__shadow"></div>
+
+                                <div class="card__data">
+                                    <h3 class="card__name">Shani Indira</h3>
+                                    <p class="card__description">
+                                        HAUS selalu menggunakan bahan baku berkualitas tinggi. Ini terasa pada setiap tegukan, di mana rasa yang segar dan autentik selalu dijaga dengan baik.
+                                    </p>
+
+                                    <div class="stars">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card__article swiper-slide">
+                            <div class="card__image">
+                                <img src="img/Ella Flowe12Full.jpg" alt="" class="card__img">
+                                <div class="card__shadow"></div>
+
+                                <div class="card__data">
+                                    <h3 class="card__name">Gabriela Abigail</h3>
+                                    <p class="card__description">
+                                        Saya suka bagaimana HAUS selalu berinovasi dengan menu mereka. Mereka tidak takut mencoba hal baru dan tetap menjadi tempat yang relevan dengan selera pelanggan masa kini.
+                                    </p>
+
+                                    <div class="stars">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card__article swiper-slide">
+                            <div class="card__image">
+                                <img src="img/Ciput Flowe12Full.jpg" alt="" class="card__img">
+                                <div class="card__shadow"></div>
+
+                                <div class="card__data">
+                                    <h3 class="card__name">Cinthya Yaputera</h3>
+                                    <p class="card__description">
+                                        Meskipun menyajikan minuman berkualitas tinggi, HAUS tetap menjaga harga mereka tetap bersaing. Ini membuatnya menjadi pilihan yang baik untuk menikmati minuman kekinian tanpa perlu khawatir tentang dompet.
+                                    </p>
+
+                                    <div class="stars">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card__article swiper-slide">
+                            <div class="card__image">
+                                <img src="img/Freya Flowe12Full.jpg" alt="" class="card__img">
+                                <div class="card__shadow"></div>
+
+                                <div class="card__data">
+                                    <h3 class="card__name">Freya Jayawardhana</h3>
+                                    <p class="card__description">
+                                        HAUS sering menawarkan promosi menarik, seperti diskon atau paket hemat. Hal ini menjadi nilai tambah bagi pelanggan yang ingin menikmati minuman favorit dengan harga yang lebih terjangkau.
+                                    </p>
+
+                                    <div class="stars">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card__article swiper-slide">
+                            <div class="card__image">
+                                <img src="img/Jeci Jamet Flowe12Full.jpg" alt="" class="card__img">
+                                <div class="card__shadow"></div>
+
+                                <div class="card__data">
+                                    <h3 class="card__name">Jessica Chandra</h3>
+                                    <p class="card__description">
+                                        HAUS memberikan pengalaman minum yang luar biasa dengan beragam minuman kekinian. Dari green tea hingga minuman coklat yang nikmat, pilihan mereka benar-benar memuaskan selera.
+                                    </p>
+
+                                    <div class="stars">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-button-prev">
+
+                </div>
+
+                <div class="swiper-button-next">
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact Us</h2>
+                <p>We will contribute to Indonesia and the world by bringing delicious and enjoyable flavors to all.</p>
+                <div class="social">
+                    <a href="https://api.whatsapp.com/send/?phone=628557881146&text&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://x.com/pinpinpom_?t=sj4XYuanBVoHOFvN3ZN8XA&s=09"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://instagram.com/iizmilarifinn?igshid=NGVhN2U2NjQ0Yg=="><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.tiktok.com/@apin.anakbudewi?is_from_webapp=1&sender_device=pc"><i class='bx bxl-tiktok'></i></a>
+                </div>
+                <div class="info">
+                    <span><i class='bx bxs-map'></i>250 New York City, USA 1001</span>
+                    <span><i class='bx bxs-phone'></i>+1 444 744 8444</span>
+                    <span><i class='bx bxs-envelope'></i>hausIndonesia@shop.com</span>
+                </div>
+            </div>
+            <div class="contact-form">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="(123) 456-789">
+                <textarea name="" id="" cols="30" rows="5" placeholder="Please type your message here.."></textarea>
+                <button>Send message</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <p>&#169; Izmil Arifin All Right Reserved</p>
+        </div>
+    </footer>
+</body>
+
+<script src="swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+
+</html>
